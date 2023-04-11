@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+  <!-- Head del documento -->
+  <%- include("./partials/head") %>
+
+  <body>
+    <!-- Header del documento -->
+    <%- include("./partials/header") %>
+    
+    <main>
+      <section class="banner-index animation" id="banner-index">
+        <div class="header-text">
+          <p class="main-text">UN ESPACIO PARA PODER REENCONTRARNOS</p>
+          <p class="secondary-text">Sin lugar a dudas, el mejor invento en la historia de la humanidad es la cerveza. Bueno, reconozco que la rueda también es un buen invento pero no va tan bien con la pizza.</p>
+        </div>
+      </section>
+
+      <section class="institutional-text">
+        <p>Queremos que la pasés bien.</p>
+        <p>Creemos que lo podés hacer acá!</p>
+      </section>
+
+      <section class="cards-productos">
+        <% for( let i = 0; i < cards.length; i++ ) { %>
+          <article class="card">
+            <a href="<%- cards[i].href%>" class="withoutStyle"> 
+              <img src=<%- cards[i].src%> alt=<%- cards[i].alt%> class="box-sh01 border-01">
+              <p class="text-card"><%- cards[i].title%></p>
+            </a>
+          </article>
+        <% } %>
+      </section>
+
+      <section class="info-menu">
+        <p>
+          <i class="fa-solid fa-beer" ></i>
+          <i class="fa-solid fa-beer" ></i>
+          <a href="/menu" class="withoutStyle"> Echale un vistazo a todo lo que tenemos </a>
+          <i class="fa-solid fa-beer" ></i>
+          <i class="fa-solid fa-beer" ></i>
+        </p>
+      </section>
+
+      <section class="events-container">
+        <p class="title-event-card">Eventos</p>
+        <article class="events-img-container">
+          <% for( let i = 0; i < cardsPromotions.length; i++ ) { %>
+            <div class="events-card">
+              <img src=<%- cardsPromotions[i].src %> alt=<%- cardsPromotions[i].alt %> class="box-sh01 border-01">
+              <p class="text-card"><%- cardsPromotions[i].title %></p>
+            </div>
+          <% } %>
+        </article>
+      </section>
+    </main>
+
+    <%- include("./partials/footer") %>
+  </body>
+</html>

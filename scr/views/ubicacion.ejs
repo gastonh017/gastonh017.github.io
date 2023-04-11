@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Aqui va el head -->
+<%- include('./partials/head') %>
+
+<body>
+  <!-- Aqui va el header -->
+  <%- include('./partials/header') %> 
+  
+  <!-- Aqui va el main -->
+  <main class="main-ubicacion">
+    <h1 class="ubicacion">Ubicacion</h1>
+    <article class="mapa-humulus">
+      <!-- <iframe id="humulusCerveceria"
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d899.5551423923813!2d-54.57519184730068!3d-25.597585886671578!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94f69230e9b84d2f%3A0xe034259aa7998c7!2sPerito%20Moreno%20261%2C%20N3370FME%20Puerto%20Iguaz%C3%BA%2C%20Misiones!5e0!3m2!1ses-419!2sar!4v1676895845834!5m2!1ses-419!2sar" 
+        width="80%";
+        height="400px"
+        style="border:1px solid blueviolet;" 
+        allowfullscreen="true" 
+        loading="" 
+        referrerpolicy="no-referrer-when-downgrade"
+      >
+      </iframe> -->
+      <a href="https://www.google.com/maps/place/Perito+Moreno+261,+N3370FME+Puerto+Iguaz%C3%BA,+Misiones/@-25.597576,-54.574739,18z/data=!4m6!3m5!1s0x94f69230e9b84d2f:0xe034259aa7998c7!8m2!3d-25.5975755!4d-54.5747386!16s%2Fg%2F11hsm4mc9r?hl=es-419" target="_blank" >
+        <img src="./images/mapaHumulus.png" alt="Ubicacion Humulus" class="box-sh01">
+      </a>
+  
+    </article>
+  </main>
+  
+  <!-- footer  -->
+  <%- include('./partials/footer') %>
+</body>
+
+</html>

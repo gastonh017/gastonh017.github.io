@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Aqui va el head -->
+<%- include('./partials/head') %>
+
+  <body>
+    <!-- Aqui va el header -->
+    <%- include('./partials/header') %>
+
+      <!-- Aqui va el main -->
+     
+        <h1 class="promociones">Promociones</h1>
+        <div class="promo-contenedor">
+          <div class="panel" style="background-image: url('/images/promo-cerveza2.jpg')">
+            <h3>Happy Hour 2X1 de 19 a 22 en Cervezas Seleccionadas</h3>
+          </div>
+          <div class="panel" style="background-image: url('/images/fernet.jpg')">
+            <h3>Happy hour de Fernet Branca</h3>
+          </div>
+          <div class="panel" style="background-image: url('/images/promo-ladies.jpg')">
+            <h3>Miercoles de ladies night. 50% off en mesas exclusivas de chicas</h3>
+          </div>
+          <div class="panel" style="background-image: url('/images/promo-residentes.jpg')">
+            <h3>Descuentos a Residentes</h3>
+          </div>
+        </div>
+<div class="promo-instagram">
+              <h5 class="texto-promo">Consulta la promo del dia en nuestra pagina de instagram</h4>
+              <a href="https://www.instagram.com/cerveceriahumulus/" target="_blank">
+                <!-- <i class="fa-brands fa-instagram"></i> -->
+                <img src="/images/instagram-fill.svg" alt="icono instagram">
+              </a>
+            </div>
+        </div>
+      
+
+      <!-- footer  -->
+      <%- include('./partials/footer') %>
+      <script src="js/promo-script.js"></script>
+  </body>
+
+</html>

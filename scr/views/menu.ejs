@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!-- Aqui va el head -->
+  <%- include('./partials/head') %>
+  <body>
+    <!-- Aqui va el header -->
+    <%- include('./partials/header') %>
+    
+    <!-- Aqui va el main -->
+    <main class="main-menu">
+      <h1 class="menu">Menú</h1>
+
+      <article>
+        <% categorias.forEach(catElement => { %>
+          <h2 id="<%- catElement.name %>"><%- catElement.title %></h2>
+          <section>
+            <% menu.forEach(element => { %>
+              <%if (element.category == catElement.name) {%>
+                <div class="menu-card">
+                  <img src="<%- element.image %>" alt="<%- element.name %>" >
+                  <div class="description">
+                    <div class="top">
+                      <h3 class="name"><%- element.name %></h3>
+                      <% if (!element.hiddenPrice) { %>
+                        <p class="price"><%- element.price %></p>
+                      <% } %>
+                    </div>
+                    <div class="botton">
+                      <p><%- element.description %></p>
+                    </div>
+                  </div>
+                </div>
+              <% } %>        
+            <% }) %>
+          </section>
+        <% }) %>
+      </article>
+      
+    </main>
+
+    <!-- footer  -->
+    <%- include('./partials/footer') %>
+  </body>
+</html>

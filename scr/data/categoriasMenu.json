@@ -1,0 +1,58 @@
+[
+  {
+    "name": "bebidasSinAlcohol",
+    "title": "Bebidas sin alcohol"
+  },
+  {
+    "name": "jugosnaturales",
+    "title": "Exprimidos"
+  },
+  {
+    "name": "energizantes",
+    "title": "Energizantes"
+  },
+  {
+    "name": "entradas",
+    "title": "Entradas"
+  },
+  {
+    "name": "hamburguesas",
+    "title": "Hamburguesas"
+  },
+  {
+    "name": "sandwitchsMinutas",
+    "title": "Sandwitchs y minutas"
+  },
+  {
+    "name": "papas",
+    "title": "Papas"
+  },
+  {
+    "name": "pizzas",
+    "title": "Pizzas"
+  },
+  {
+    "name": "lomitoHumulus",
+    "title": "Lomito Humulus"
+  },
+  {
+    "name": "menuInfantil",
+    "title": "Menú infantil Humulus"
+  },
+  {
+    "name": "bebidasConAlcohol",
+    "title": "Bebidas con alcohol"
+  },
+  {
+    "name": "tragos",
+    "title": "Tragos"
+  },
+  {
+    "name": "vinos",
+    "title": "Vinos"
+  },
+  {
+    "name": "espumantes",
+    "title": "Espumantes"
+  }
+]

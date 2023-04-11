@@ -1,0 +1,825 @@
+[
+  {
+    "name": "Agua sin gas",
+    "description": "",
+    "category": "bebidasSinAlcohol",
+    "image": "/images/menu/bebidas/agua.png",
+    "price": "$400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Agua con gas",
+    "description": "",
+    "category": "bebidasSinAlcohol",
+    "image": "/images/menu/bebidas/agua.png",
+    "price": "$400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Agua Saborizada",
+    "description": "",
+    "category": "bebidasSinAlcohol",
+    "image": "/images/menu/bebidas/levite.png",
+    "price": "$400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Coca-Cola",
+    "description": "",
+    "category": "bebidasSinAlcohol",
+    "image": "/images/menu/bebidas/cocacola.png",
+    "price": "$500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Fanta",
+    "description": "",
+    "category": "bebidasSinAlcohol",
+    "image": "/images/menu/bebidas/fanta.png",
+    "price": "$500",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Empanadas Gourment",
+    "description": "",
+    "category": "empanadas",
+    "image": "/images/menu/empanadas/empanadasGourmet.png",
+    "price": "",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Bastones de Muzzarella",
+    "description": "Mozzarella cheese roll, breaded with barbecue sauce.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/bastonesMuzzarella.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Bastones de Surubí",
+    "description": "Rollos de surubi bañados en salsa bbq, con alioli de ajo.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/bastonesSurubi.png",
+    "price": "$2400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Langostinos Rebozados",
+    "description": "Mariscos crocantes cubiertos en panko con alioli de ajo y pan.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/langostinos.png",
+    "price": "$3500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Picada Humulus",
+    "description": "Mix tres quesos, jamon crudo, longaniza, jamon cocido, paneta, crujiente y aceitunas verdes y negras.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/picadaHumulus.png",
+    "price": "$3000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Wok de vegatales",
+    "description": "Combinacion de berenjena, zanhaoria, zapallito, verdeo, cebolla y morrones sobre una cama de arroz blanco.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/wokDeVegetales.png",
+    "price": "$1600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Picaña Tres Fronteras",
+    "description": "",
+    "category": "entradas",
+    "image": "/images/menu/entradas/picaña.png",
+    "price": "$3800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Rabas",
+    "description": "Anillos de calamar apanados, con limon.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/rabas.png",
+    "price": "$2300",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Rabas Provenzal",
+    "description": "Anillos de calamar apanados, con salsa de ajo y peregil.",
+    "category": "entradas",
+    "image": "/images/menu/entradas/rabasProvenzal.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Hollywood",
+    "description": "Medallon de carne 180gr, cheddar, beacon, cebolla, tomates asados, morrom salteado, huevo con guarnicion de papas fritas.",
+    "category": "hamburguesas",
+    "image": "/images/menu/hamburguesas/hamburguesa.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Springfield",
+    "description": "Medallon de carne 180gr, jamon, queso, lechuga, tomate huevo. Con guarnicion de papas fritas.",
+    "category": "hamburguesas",
+    "image": "/images/menu/hamburguesas/hamburguesa.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Texana",
+    "description": "Medallon de carne de 180gr, doble queso, cebolla caramelizada, rucula y salsa BBQ, con papas fritas.",
+    "category": "hamburguesas",
+    "image": "/images/menu/hamburguesas/hamburguesa.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Exprimido de naranja",
+    "description": "",
+    "category": "jugosnaturales",
+    "image": "/images/menu/jugosNaturales/exprimidoNaranja.png",
+    "price": "$800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Limonada con Jengibre",
+    "description": "",
+    "category": "jugosnaturales",
+    "image": "/images/menu/jugosNaturales/limonada.png",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Licuado Maracuya",
+    "description": "",
+    "category": "jugosnaturales",
+    "image": "/images/menu/jugosNaturales/licuadoMaracuya.jpeg",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Licuado Mango",
+    "description": "",
+    "category": "jugosnaturales",
+    "image": "/images/menu/jugosNaturales/licuadoMango.jpeg",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Papas Rusticas",
+    "description": "Fritas clasicas con cascaras.",
+    "category": "papas",
+    "image": "/images/menu/papas/papasRusticas.png",
+    "price": "$1300",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Papas Cheddar",
+    "description": "Fritas con salsa de queso cheddar, beacon y cebolla de verdeo.",
+    "category": "papas",
+    "image": "/images/menu/papas/papasCheddar.png",
+    "price": "$1800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Papas Diablas",
+    "description": "Fritas en corte español con ajo campestre, aji molido y aceite de oliva",
+    "category": "papas",
+    "image": "/images/menu/papas/papasDiablas.png",
+    "price": "$1500",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Muzzarella",
+    "description": "Salsa de tomate, muzzarella, oregano.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/muzzarella.png",
+    "price": "$1600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "4 Quesos",
+    "description": "Muzzarella, cheddar, queso tybo, roquefort y aceitunas.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/cuatroQuesos.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Jamon y Morrones",
+    "description": "Muzzarella, jamon cocido, morrones, aceitunas.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/jamonYMorrones.png",
+    "price": "$2200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Crudo y Rúcula",
+    "description": "Muzzarella, tomate, longaniza, calabresa, aceitunas.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/crudoRucula.png",
+    "price": "$2400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Fugazzeta",
+    "description": "Muzzarella, cenbolla dulce, aceitunas y oreganos.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/fugazzeta.png",
+    "price": "$2200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Calabresa",
+    "description": "Muzzarella, tomate, longaniza, calabresa, aceitunas y oregano.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/calabresa.png",
+    "price": "$1800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Caprese",
+    "description": "Muzzarella, tomate, albahaca, aceitunas y oregano.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/caprese.png",
+    "price": "$1800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Veggie",
+    "description": "Muzzarella, tomate, verdeo, cebolla, berenjena, morron y aceitunas .",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/veggie.png",
+    "price": "$1600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Humulus",
+    "description": "Muzzarella, panceta, huevo, tomate, cebolla de verdeo, aceitunas y oregano.",
+    "category": "pizzas",
+    "image": "/images/menu/pizzas/pizzaHumulus.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Caipiroska Importada",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/caipiroska.jpeg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Caipiroska Nacional",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/caipiroska.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Garibaldi",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/garibaldi.jpg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Daikiri",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/daikiri.jpg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Gancia con Sprite",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/ganciaConLimon.png",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Margarita",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/margarita.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Kriptonita",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/Kriptonita.png",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Pantera Rosa",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/panteraRosa.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Tequila Sunrise",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/tequilaSunrise.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Blue Lagoon",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/blueLagoon.jpeg",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Martini",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/martiniDry.jpg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Cuba Libre",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/cubalibre.jpg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Whiscola",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/whiscola.jpg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Sex on the Beach",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/sexOnTheBeach.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Fernet Cola",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/fernetcola.jpg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Gin Tonic",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/ginTonic.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Gancia Batido",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/gancia-batido.jpg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Malibu Surf Blue",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/malibuSurfBlue.jpeg",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Sexy Red",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/sexyRed.png",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Negroni",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/negroni.jpeg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Cuba Libre Importado",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/cubalibre.jpg",
+    "price": "$1500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Gin Tonic Importado",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/ginTonic.jpeg",
+    "price": "$1500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Destornillador",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/ginTonic.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Mojito",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/Mojito1.png",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Amarula Frozen",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/amarulaFrozen.png",
+    "price": "$1500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Baileys Frozen",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/baileysFrozen.png",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Caipirinha",
+    "description": "",
+    "category": "tragos",
+    "image": "/images/menu/tragos/caipirinha.png",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Jack Daniels Honey",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/jackDanielsHoney.jpeg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Jack Daniels N°7",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/jackDanielsN7.jpeg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Johnnie Walker Black",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/jonnieWalkerBlack.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Johnnie Walker Red",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/jonnieWalkerRed.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Ballantines",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/ballantines.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Chivas 12 Años",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/chivas12.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Amarula",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/amarula.jpeg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Baileys",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/bayleys.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Kahlua",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/kahlua.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Beefeter",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/beefeter.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Bombay",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/bombay.jpeg",
+    "price": "$1100",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Ron Havana",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/havana.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Ron Bacardi",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/bacardi.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Absolut",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/absolut.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Smirnoff",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/smirnoff.jpeg",
+    "price": "$800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Skyy",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/skyy.jpeg",
+    "price": "$600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Tequila Jose cuervo",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/bebidas/joseCuervo.jpeg",
+    "price": "$1000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Tequila Nacional",
+    "description": "Medida",
+    "category": "bebidasConAlcohol",
+    "image": "/images/menu/humulus.jpg",
+    "price": "$800",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Borghetti",
+    "description": "",
+    "category": "tragosExoticos",
+    "image": "/images/menu/tragosExoticos/borghetti.png",
+    "price": "",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Carpano",
+    "description": "",
+    "category": "tragosExoticos",
+    "image": "/images/menu/tragosExoticos/carpano.png",
+    "price": "",
+    "hiddenPrice": true
+  },
+  {
+    "name": "mint(+)",
+    "description": "",
+    "category": "tragosExoticos",
+    "image": "/images/menu/tragosExoticos/mint.png",
+    "price": "",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Speed",
+    "description": "",
+    "category": "energizantes",
+    "image": "/images/menu/bebidas/speed.jpeg",
+    "price": "$600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Red Bull",
+    "description": "",
+    "category": "energizantes",
+    "image": "/images/menu/bebidas/redBull.jpeg",
+    "price": "$800",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Norton blanco dulce",
+    "description": "",
+    "category": "vinos",
+    "image": "/images/menu/vinos/nortonCosechaTardia.jpg",
+    "price": "$1200",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Cabernet",
+    "description": "",
+    "category": "vinos",
+    "image": "/images/menu/humulus.jpg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Malbec",
+    "description": "",
+    "category": "vinos",
+    "image": "/images/menu/humulus.jpg",
+    "price": "$1400",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Trumpeter Malbec",
+    "description": "",
+    "category": "vinos",
+    "image": "/images/menu/vinos/trumpeterMalbec.jpeg",
+    "price": "$3200",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Baron B",
+    "description": "",
+    "category": "espumantes",
+    "image": "/images/menu/espumantes/baronB.jpeg",
+    "price": "$8000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Chandon",
+    "description": "",
+    "category": "espumantes",
+    "image": "/images/menu/espumantes/Chandon.jpeg",
+    "price": "$3800",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Mumm",
+    "description": "",
+    "category": "espumantes",
+    "image": "/images/menu/espumantes/mumm.png",
+    "price": "$2000",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Renaissace",
+    "description": "",
+    "category": "espumantes",
+    "image": "/images/menu/espumantes/Renaissace.png",
+    "price": "$1800",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Lomito completo “Munich”",
+    "description": "Medallón de carne 200grs Lechuga, tomate, jamón, queso y huevo. Con papas fritas.",
+    "category": "lomitoHumulus",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Lomito simple “Berlín”",
+    "description": "Medallón de carne 200grs Lechuga y tomate. Con papas fritas.",
+    "category": "lomitoHumulus",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2300",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Milanesa completa “Milán”",
+    "description": "Medallón de carne rebozada 200grs Jamón, queso, tomate, lechuga y huevo. Con papas fritas.",
+    "category": "sandwitchsMinutas",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Milanesa simple “Viena”",
+    "description": "Medallón de carne rebozada 200grs lechuga y tomate. Con papas fritas.",
+    "category": "sandwitchsMinutas",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2300",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Milanesa a caballo (al plato) “Bs As”",
+    "description": "Medallón de carne rebozada 200grs 2 huevos fritos Papas fritas.",
+    "category": "sandwitchsMinutas",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2300",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Milanesa napolitana (al plato) “Nápoles”",
+    "description": "Medallón de carne rebozada 200grs Salsa de tomate, Jamón y queso fundido Papas fritas.",
+    "category": "sandwitchsMinutas",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Milanesa cheddar (al plato) “Liverpool”",
+    "description": "Medallón de carne rebozada 200grs Cheddar y panceta Papas fritas.",
+    "category": "sandwitchsMinutas",
+    "image": "/images/menu/sandwitchsMinutas/sandwitchsYMinutas.png",
+    "price": "$2500",
+    "hiddenPrice": true
+  },
+
+  {
+    "name": "Nuggets de pollo “New Jersey”",
+    "description": "120grs con papas fritas.",
+    "category": "menuInfantil",
+    "image": "/images/menu/infantil/menuInfantil.png",
+    "price": "$1600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Mini hamburguesa “falls”",
+    "description": "90grs Jamón y queso. Con papas fritas.",
+    "category": "menuInfantil",
+    "image": "/images/menu/infantil/menuInfantil.png",
+    "price": "$1600",
+    "hiddenPrice": true
+  },
+  {
+    "name": "Milanesa kid",
+    "description": "Milanesa chica con papas fritas.",
+    "category": "menuInfantil",
+    "image": "/images/menu/infantil/menuInfantil.png",
+    "price": "$1800",
+    "hiddenPrice": true
+  }
+]
